@@ -1,5 +1,5 @@
 # Compiled class file
-*.class
+
 
 # Log file
 *.log
@@ -21,3 +21,25 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+
+/*.iml
+/.idea/
+/src/test/resources/unpack/*_unpacked.so
+
+*.DS_Store
+**/dev/log
+/src/test/resources/example_binaries/stdout
+/src/test/resources/example_binaries/stderr
+
+/symbol.txt
+src/main/native/android/
+src/main/native/ios/
+src/main/native/macos/
+src/main/native/windows/
+src/main/native/linux/
+
+/build/
+
+/src/main/native/swig/
+
